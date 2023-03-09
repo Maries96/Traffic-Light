@@ -1,0 +1,53 @@
+
+
+.stem {
+background-color: black;
+width: 20px;
+height: 100px;
+margin: auto;
+}
+
+.box {
+    background-color: black;
+    width:200px;
+    height:550px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.redLight {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.yellowLight {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+.greenLight {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+
+.redLight.on {
+    box-shadow: 3px 3px 48px 20px rgba(223, 66, 66, 0.61);
+}
+
+.yellowLight.on {
+    box-shadow: 3px 3px 48px 20px rgba(245,225,10,0.61);
+}
+.greenLight.on {
+    box-shadow: 3px 3px 48px 20px rgba(117, 201, 142, 0.61);
+}
